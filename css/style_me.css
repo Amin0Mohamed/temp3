@@ -1,0 +1,80 @@
+@charset "utf-8";
+/* CSS Document */
+
+*
+{
+	box-sizing:border-box;
+	transition:all 0.5s;
+}
+
+body
+{
+	background-color:#eeeeee;
+	height:4000px;
+}
+/*************nav**************/
+.nav .img-responsive 
+{
+	
+display:inline;
+margin-right:5px;
+
+}
+.navbar-inverse .navbar-nav>.active>a{background-color:transparent;}
+.navbar-inverse .navbar-nav>.active>a:hover{background-color:transparent;}
+/*************section hello**************/
+.hello{margin-top:20px;padding-bottom:150px;padding-top:50px;background-image:url(../images/Privacy-Image-2-1440x340.jpg);background-repeat:no-repeat;background-size:100% 100%;color:#FFFBF0;height:620px;}
+.hello .cover{width:100%;height:620px;background-color:rgba(0,0,0,0.5);margin-top:-20px;}
+.hello .jumb{margin-top:150px;}
+/*************section two**************/
+.two{background-color:#fff;padding-top:170px;padding-bottom:200px;}
+.two .line1
+{
+   width:3px;
+   height:150px;
+   background-color:#eeeeee;
+   
+}
+.two .line2
+{
+   width:3px;
+   height:110px;
+   background-color:#eeeeee;
+   
+}
+.two .text
+{
+   margin-top:-15px;
+   margin-left:-20px;	
+}
+.btn-primary:hover {
+    color:#286090;
+    background-color: #fff;
+    border-color: #204d74;
+}
+/*************section tabs**************/
+.tab{padding-top:170px;padding-bottom:100px;}
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{background-color:#009FFF;color:#FFF;margin-bottom:20px;transform:scale(1.1,1.2)}
+
+/*************section cont**************/
+.cont{background-color:#fff;padding-top:30px;}
+.cont .ss{margin-top:100px;}
+/**********************thum*********************************/
+.thum
+{
+  margin-top:80px;
+  margin-bottom:30px;
+  	
+}
+.thum h2{font-weight:900;color:#000;margin-top:20px;}
+.thum p {font-size:30px;color:#ccc;margin-bottom:70px;}
+.thum .thumbnail p{color:#000;font-size:20px;}
+.thum .btn{margin-top:-40px;}
+.thum .btn-group .btn + .btn
+{
+   margin-left:-10px;
+   padding:9px;	
+   border-top-left-radius:0px;
+   border-bottom-left-radius:0px;
+}
+.thum .btn-group .btn{margin-bottom:40px;}
